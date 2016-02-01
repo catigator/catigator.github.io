@@ -2,6 +2,7 @@
   background: #e5eaee
   text-align: center
   max-width: 100%
+  padding-bottom: 20px
 
 .social-links
   max-width: 700px
@@ -41,7 +42,7 @@
 
 .biglink
   text-align: center
-  margin-bottom: 70px
+  margin-bottom: 90px
   color: $color-1
   font:
     size: 72px
@@ -51,28 +52,27 @@
     font:
       size: 22px
       weight: 300
-    +MQ(M)
-      padding-top: 10px
-      font:
-        size: 22px
-        weight: 300
+  +MQ(M)
+    padding-top: 10px
+    font:
+      size: 22px
+      weight: 300
 
+  +MQ(L)
+    padding-top: 50px
+    font:
+      size: 70px
+      weight: 300
+  span
+    display: inline-block
+    padding: 0.2em 0.5em
+    +MQ(S)
+      padding: 0.2em 0.2em
+    +MQ(M)
+      padding: 0.1em 0.2em
     +MQ(L)
-      padding-top: 50px
-      font:
-        size: 70px
-        weight: 300
-    span
-      display: inline-block
       padding: 0.2em 0.5em
-      +MQ(S)
-        padding: 0.2em 0.2em
-      +MQ(M)
-        padding: 0.1em 0.2em
-      +MQ(L)
-        padding: 0.2em 0.5em
 
 .biglink
   &:hover
     +transform(scale(1.02))
-
