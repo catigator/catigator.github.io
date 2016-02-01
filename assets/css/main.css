@@ -932,7 +932,6 @@ footer {
   padding-top: 100px; }
 
 .biglink {
-  display: inline-block;
   text-align: center;
   margin-bottom: 70px;
   color: #303e49;
@@ -946,7 +945,7 @@ footer {
   @media only screen and (min-width: 220px) and (min-width: 650px) {
     .biglink {
       padding-top: 10px;
-      font-size: 28px;
+      font-size: 22px;
       font-weight: 300; } }
   @media only screen and (min-width: 220px) and (min-width: 1070px) {
     .biglink {
