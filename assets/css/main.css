@@ -652,7 +652,7 @@ header {
   header nav {
     float: right;
     margin: 30px 30px 30px;
-    font-family: Consolas; }
+    font-family: Consolas, Menlo, monospace; }
     header nav a {
       margin-left: 20px;
       color: rgba(0, 0, 0, 0.5);
