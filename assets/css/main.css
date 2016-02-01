@@ -668,7 +668,7 @@ header {
         color: #b97662; }
   header h1 {
     text-align: center;
-    font-family: Consolas;
+    font-family: Consolas, Menlo, monospace;
     color: rgba(255, 255, 255, 0.7);
     letter-spacing: 0.05cm;
     margin-bottom: 20px;
@@ -703,7 +703,7 @@ header {
           padding: 0.2em 0.5em; } }
   header .kicker {
     text-align: center;
-    font-family: Consolas;
+    font-family: Consolas, Menlo, monospace;
     line-height: 1;
     color: rgba(255, 255, 255, 0.7); }
 
@@ -727,7 +727,7 @@ footer {
       color: rgba(0, 0, 0, 0.6);
       display: inline-block;
       margin-right: 30px;
-      font-family: Consolas;
+      font-family: Consolas, Menlo, monospace;
       font-size: 20px; }
       footer .lockup a:hover {
         color: black; }
@@ -1270,8 +1270,6 @@ form {
   -o-justify-content: space-between;
   justify-content: space-between;
   -ms-flex-pack: justify; }
-  .title:hover {
-    padding-left: 10px; }
 
 @media only screen and (min-width: 220px) {
   .post-header {
@@ -1299,21 +1297,14 @@ form {
     -ms-justify-content: space-between;
     -o-justify-content: space-between;
     justify-content: space-between;
-    -ms-flex-pack: justify;
-    padding-left: 10px; }
-  .title:hover {
-    padding-left: 10px; }
+    -ms-flex-pack: justify; }
   .post-title {
     font-size: 42px;
     letter-spacing: -1px;
-    line-height: 1;
-    padding-left: 10px; }
-    .post-title:hover {
-      padding-left: 10px; }
+    line-height: 1; }
   .post-meta {
     margin-bottom: 0px;
-    padding-bottom: 20px;
-    padding-left: 10px; }
+    padding-bottom: 20px; }
   .post-link {
     display: block;
     font-size: 40px; }
