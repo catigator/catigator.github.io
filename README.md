@@ -1,8 +1,8 @@
 =============================
-Sleek Blog
+brew / slash
 =============================
 
-[Live Website](http://gearoidoconnor.ie)
+[Live Website](http://brewslash.com/)
 
 
 A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
