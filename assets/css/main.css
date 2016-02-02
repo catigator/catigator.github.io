@@ -882,10 +882,12 @@ footer {
   text-align: center; }
 
 .section-contact {
-  background: #e5eaee;
+  background: #cb6d6b;
   text-align: center;
   max-width: 100%;
   padding-bottom: 20px; }
+  .section-contact h2 {
+    color: white; }
 
 .social-links {
   max-width: 700px;
@@ -912,7 +914,7 @@ footer {
     display: block;
     font-size: 60px;
     line-height: 70px;
-    color: #303e49;
+    color: white;
     -webkit-transition: all 0.15s ease-out 0s;
     transition: all 0.15s ease-out 0s;
     margin-left: 0; }
@@ -921,13 +923,13 @@ footer {
   width: 250px;
   height: 0px;
   margin: 40px auto 40px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid white; }
 
 .bar-blog {
   width: 250px;
   height: 0px;
   margin: 20px auto 20px;
-  border-top: 4px solid #303e49; }
+  border-top: 4px solid white; }
 
 .blog-end {
   padding-top: 100px; }
@@ -935,7 +937,7 @@ footer {
 .biglink {
   text-align: center;
   margin-bottom: 90px;
-  color: #303e49;
+  color: white;
   font-size: 72px;
   font-weight: 300; }
   @media only screen and (min-width: 220px) {
