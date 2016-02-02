@@ -885,7 +885,9 @@ footer {
   background: #cb6d6b;
   text-align: center;
   max-width: 100%;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  background: url(../img/DSCF7343.jpg) top center;
+  background-size: 1920px auto; }
   .section-contact h2 {
     color: white; }
 
