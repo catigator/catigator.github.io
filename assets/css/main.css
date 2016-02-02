@@ -1298,7 +1298,8 @@ form {
   -ms-justify-content: space-between;
   -o-justify-content: space-between;
   justify-content: space-between;
-  -ms-flex-pack: justify; }
+  -ms-flex-pack: justify;
+  margin: 0 auto; }
 
 @media only screen and (min-width: 220px) {
   .post-header {
@@ -1326,7 +1327,8 @@ form {
     -ms-justify-content: space-between;
     -o-justify-content: space-between;
     justify-content: space-between;
-    -ms-flex-pack: justify; }
+    -ms-flex-pack: justify;
+    margin: 0 auto; }
   .post-title {
     font-size: 42px;
     letter-spacing: -1px;
@@ -1366,8 +1368,6 @@ form {
   .post-header {
     max-width: 650px;
     margin: 0 auto; }
-  .title:hover {
-    max-width: 650px; }
   .post-wrapper {
     max-width: 650px; }
   .comment {
@@ -1383,10 +1383,10 @@ form {
 
 @media only screen and (min-width: 1070px) {
   .post-header {
-    max-width: 750px;
+    max-width: 780px;
     margin: 0 auto; }
-  .title:hover {
-    max-width: 750px; }
+  .title {
+    margin: 0 auto; }
   .post-wrapper {
     max-width: 780px; }
   .comment {
