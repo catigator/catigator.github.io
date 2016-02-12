@@ -972,7 +972,8 @@ footer {
 
 .biglink:hover {
   -webkit-transform: scale(1.02);
-  transform: scale(1.02); }
+  transform: scale(1.02);
+  color: #fd984f; }
 
 *, *:after, *:before {
   box-sizing: border-box; }
