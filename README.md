@@ -1,8 +1,8 @@
 ============================
-brew / slash
+neontropics
 =============================
 
-[Live Website] (http://brewslash.com/)
+[Live Website] (http://www.neontropics.com/)
 
 A blog project including full setup for Jekyll, GulpJS, SASS, AutoPrefixer &amp; BrowserSync
 
