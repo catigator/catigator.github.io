@@ -4,6 +4,9 @@ node_modules
 
 # Created by https://www.gitignore.io
 
+# Asset stuff
+*.xcf
+
 ### OSX ###
 .DS_Store
 .AppleDouble
