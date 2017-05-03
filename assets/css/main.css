@@ -686,7 +686,7 @@ header {
     @media only screen and (min-width: 650px) {
       header h1 {
         padding-top: 10px;
-        font-size: 30px;
+        font-size: 32px;
         font-weight: 350; } }
     @media only screen and (min-width: 1070px) {
       header h1 {
@@ -702,7 +702,7 @@ header {
           padding: 0.2em 0.5em; } }
       @media only screen and (min-width: 650px) {
         header h1 span {
-          padding: 0.1em 0.2em; } }
+          padding: 0.2em 0.5em; } }
       @media only screen and (min-width: 1070px) {
         header h1 span {
           padding: 0.2em 0.5em; } }
@@ -710,6 +710,7 @@ header {
         border: rgba(255, 255, 255, 0.7) solid 10px; }
   header .kicker {
     text-align: center;
+    margin: 10px 0 0 10px;
     font-family: Consolas, Menlo, monospace;
     line-height: 1;
     color: rgba(255, 255, 255, 0.7); }
