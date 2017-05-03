@@ -685,9 +685,9 @@ header {
         font-weight: 350; } }
     @media only screen and (min-width: 650px) {
       header h1 {
-        padding-top: 10px;
-        font-size: 32px;
-        font-weight: 350; } }
+        padding-top: 50px;
+        font-size: 50px;
+        font-weight: 550; } }
     @media only screen and (min-width: 1070px) {
       header h1 {
         padding-top: 50px;
